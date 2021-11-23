@@ -32,4 +32,4 @@ jobs:
         pip install paho-mqtt
         pip install lxml
     - name: Build package
-      run: python -m build
+      run: python infos/info.py
